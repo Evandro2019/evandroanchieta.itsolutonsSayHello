@@ -1,0 +1,74 @@
+
+"""
+#Chamada qualificada
+
+import statistics
+
+z=[10,20,30,40]
+
+x=statistics.mean(z)
+y=statistics.median(z)
+# odd number = quantidade impar de elementos
+# even number = quantidade par de elementos
+print(z)
+print('even list z mean ',x)
+print('even list  z median ',z)
+
+a=[10,20,30,40,50]
+
+b=statistics.mean(a)
+c=statistics.median(a)
+
+print('odd list a mean ',b)
+print('odd list a median ',c)
+
+"""
+
+
+import statistics as est
+# eu qualifiquei aqui em cima, criei um alias pro modo estatistico
+
+z=[10,20,30,40]
+
+x=est.mean(z)
+y=est.median(z)
+# odd number = quantidade impar de elementos
+# even number = quantidade par de elementos
+print(z)
+print('even list z mean ',x)
+print('even list  z median ',z)
+
+a=[10,20,30,40,50]
+
+b=est.mean(a)
+c=est.median(a)
+
+print('odd list a mean ',b)
+print('odd list a median ',c)
+
+
+*********************
+from statistics import mean, median
+# assim eu posso chamar diretamente as funções
+# pelo nome
+
+z=[10,20,30,40]
+
+x=mean(z)
+y=median(z)
+# odd number = quantidade impar de elementos
+# even number = quantidade par de elementos
+print(z)
+print('even list z mean ',x)
+print('even list  z median ',z)
+
+a=[10,20,30,40,50]
+
+b=mean(a)
+c=median(a)
+
+print('odd list a mean ',b)
+print('odd list a median ',c)
+
+
+
