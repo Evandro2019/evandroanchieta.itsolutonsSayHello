@@ -1,0 +1,14 @@
+from flask import Flask, render_template, request, flash
+
+app = Flask(__name__)
+
+@app.route("/hello")
+
+def index():
+    flash("yupiii, Whats your name?")
+    return render_template("index.html")
+
+
+app.run(host='localhost', port=5000)
+    
+
